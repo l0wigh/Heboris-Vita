@@ -10,7 +10,7 @@ This port is based on the Heboris SDL2 source code
 
 [sarcastic_cat](https://github.com/isage) : For all the help about PhysFS and SDL stuff
 
-gl33ntwine : Easing my debugging process
+[gl33ntwine](https://github.com/v-atamanenko) : Easing my debugging process
 
 All the CBPS discord members
 
