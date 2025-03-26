@@ -109,12 +109,32 @@ add_executable(${PROJECT_NAME}
 
 # Library to link to (drop the -l prefix). This will mostly be stubs.
 target_link_libraries(${PROJECT_NAME}
-	SDL2
-	SDL2_image
 	SDL2_mixer
+	SDL2_image
+	SDL2
+	physfs
+	opusfile
+	opus
+	modplug
+	stdc++
+	jpeg
+	png
+	xmp
+	webpdemux
+	webp
+	mikmod
+	mpg123
+	vorbisfile
+	vorbis
+	ogg
+	FLAC
+	z
+	pthread
+	m
 	SceDisplay_stub
 	SceCtrl_stub
 	SceAudio_stub
+	SceAudioIn_stub
 	SceSysmodule_stub
 	SceGxm_stub
 	SceCommonDialog_stub
@@ -122,19 +142,6 @@ target_link_libraries(${PROJECT_NAME}
 	SceTouch_stub
 	SceHid_stub
 	SceMotion_stub
-	m
-	z
-	physfs
-	jpeg
-	png
-	webp
-	mikmod
-	mpg123
-	vorbis
-	vorbisfile
-	ogg
-	pthread
-	FLAC
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
